@@ -14,3 +14,5 @@ require('./bootstrap');
 
 require('./components/Example');
 require('./components/User');
+require('./components/App');
+//https://medium.com/@tthdvd/build-a-react-web-app-with-laravel-sanctum-part-1-login-c657d0bbbb0b
