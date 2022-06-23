@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Login from "./Login/Login";
-
+import {BrowserRouter, Route} from 'react-router-dom';
+import { ProtectedRoute } from './ProtectedRoute/ProtectedRoute';
+import Dashboard from './Dashboard/Dashboard';
 function App() {
     return (
         <React.Fragment>
