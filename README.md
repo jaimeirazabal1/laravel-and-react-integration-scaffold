@@ -1,10 +1,10 @@
-## composer require laravel/ui
-## php artisan ui react
-## npm install
-## npm install
-## npm run dev
-## php artisan serve
+## php artisan migrate
 
+## composer require tymon/jwt-auth:dev-develop --prefer-source
+
+## composer install 
+
+## php artisan serve
 
 ## to register user use POST http://localhost:8000/api/register in postman
 ````
