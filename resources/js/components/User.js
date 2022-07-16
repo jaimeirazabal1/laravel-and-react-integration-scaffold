@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+
+import { Login } from './User/Login';
 function User() {
     return (
         <div className="container mt-5">
@@ -16,6 +16,3 @@ function User() {
 }
 export default User;
 // DOM element
-if (document.getElementById('user')) {
-    ReactDOM.render(<User />, document.getElementById('user'));
-}
